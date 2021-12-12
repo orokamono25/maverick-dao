@@ -11,7 +11,7 @@ The next steps would be to browse through the different swarms and their vision 
 
 In case you are setting up a new swarm, you can request for an airdrop, to get your swarm started.
 
-[Here](src/projects-interested-in.md) is a list of projects we are interested in.
+[Here](./projects-interested-in.md) is a list of projects we are interested in.
 
 All airdrop submissions are voted upon by the DAO.
 
