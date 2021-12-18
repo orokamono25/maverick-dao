@@ -7,4 +7,5 @@
 - [Getting Started](./getting-started.md)
     - [Wallet Setup](./wallet-setup.md)
     - [Projects we are interested in](./projects-interested-in.md)
+    - [Airdrops](./airdrops.md)
 - [To Do List](./todo-list.md)
