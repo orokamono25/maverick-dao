@@ -149,10 +149,10 @@
 <p>Sign-up and create your Metamask wallet  https://metamask.io/</p>
 </li>
 <li>
-<p>Add The polygon Network by visiting https://chainlist.org/, scroll to the tile that says &quot;Polygon Mainnet&quot; and click on the connect wallet button.</p>
+<p>Add The polygon Network by visiting <a href="https://chainlist.org/">Chainlink.org</a>, scroll to the tile that says &quot;Polygon Mainnet&quot; and click on the connect wallet button.</p>
 </li>
 <li>
-<p>Once done go to the Metamask extension and from the top dropdown where it says Ethirium Mainnet, select Polygon Mainnet.</p>
+<p>Once done go to the Metamask extension and from the top dropdown where it says Ethereum Mainnet, select Polygon Mainnet.</p>
 </li>
 <li>
 <p>Click on the Import Token Link and add the following address to start seeing your MAVE tokens. <code>0xda8cf1901af043d975c5ce8085ab03d0c803c917</code></p>
@@ -188,6 +188,20 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
